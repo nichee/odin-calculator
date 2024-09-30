@@ -5,39 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <script src="calculator.js" defer></script>
 </head>
 <body>
     <div class = "calculator">
         <div class="screen">
-            <div class="screen-input">
-                12345123456783456785
+            <div id="screen-input" class="screen-input">
             </div>
         </div>
         <div class="inputs">
             <div>
-                <button class="key">7</button>
-                <button class="key">8</button>
-                <button class="key">9</button>
-                <button class="key">÷</button>
-                <button class="key">CE</button>
+                <button class="key numkey" aria-label="7">7</button>
+                <button class="key numkey" aria-label="8">8</button>
+                <button class="key numkey" aria-label="9">9</button>
+                <button class="key op" aria-label="div">÷</button>
+                <button class="key clear">CE</button>
             </div>
             <div>
-                <button class="key">4</button>
-                <button class="key">5</button>
-                <button class="key">6</button>
-                <button class="key">x</button>
+                <button class="key numkey" aria-label="4">4</button>
+                <button class="key numkey" aria-label="5">5</button>
+                <button class="key numkey" aria-label="6">6</button>
+                <button class="key op" aria-label="x">x</button>
             </div>
             <div>
-                <button class="key">1</button>
-                <button class="key">2</button>
-                <button class="key">3</button>
-                <button class="key">-</button>
+                <button class="key numkey" aria-label="1">1</button>
+                <button class="key numkey" aria-label="2">2</button>
+                <button class="key numkey" aria-label="3">3</button>
+                <button class="key op" aria-label="-">-</button>
             </div>
             <div>
-                <button class="key">0</button>
-                <button class="key">.</button>
-                <button class="key">=</button>
-                <button class="key">+</button>
+                <button class="key numkey" aria-label="0">0</button>
+                <button class="key dot">.</button>
+                <button class="key equals">=</button>
+                <button class="key op" aria-label="+">+</button>
             </div>
         </div>
     </div>
